@@ -1,7 +1,9 @@
 import { greet } from "./utils/greet";
+import MapBabyNames from './BabyUI'
+import './app.css'
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return  <MapBabyNames />
 }
 
 export default App;
